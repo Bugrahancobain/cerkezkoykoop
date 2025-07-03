@@ -1,0 +1,44 @@
+.underSliderMain{
+    position: absolute;
+    top: 88vh;
+    z-index: 999;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align: start;
+    gap: 10px;
+    padding: 3%;
+}
+
+.underSliderContent1, .underSliderContent2, .underSliderContent3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 33%;
+    height: 300px;
+    gap: 20px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;}
+
+.underSliderContent1 svg, .underSliderContent2 svg, .underSliderContent3 svg {
+    font-size: 2rem;
+    fill: #4A90E2;
+    font-weight: 500;
+}
+
+.underSliderContent1 h2, .underSliderContent2 h2, .underSliderContent3 h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.underSliderContent1 a, .underSliderContent2 a, .underSliderContent3 a {
+    color: black;
+    text-decoration: none;
+}
+
+.underSliderContent1 a:active, .underSliderContent2 a:active, .underSliderContent3 a:active {
+    color: black;
+}

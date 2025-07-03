@@ -1,0 +1,76 @@
+.ourServicesMain {
+  padding: 40px 20px;
+}
+
+.ourServicesTitleDiv {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.ourServicesTitleDiv h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #002f3d;
+}
+
+.ourServicesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.ourServicesCard {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 280px;
+}
+
+.ourServicesCard:hover {
+  transform: translateY(-4px);
+}
+
+.ourServiceImage {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.serviceInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #fff;
+  border-top: 4px solid #ff7a3d;
+}
+
+.serviceTitle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+}
+
+.truckIcon {
+  color: #ff7a3d;
+  font-size: 20px;
+}
+
+.serviceArrow {
+  background-color: #003b3f;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
