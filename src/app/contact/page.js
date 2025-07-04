@@ -49,14 +49,22 @@ function page() {
 
                 <div className="contactInfo">
                     <h2>İletişim Bilgilerimiz</h2>
-                    <div className="contactDetail"><LuMails /> info@cerkezkoytaskoop.com</div>
-                    <div className="contactDetail"><FaMapLocationDot /> İstasyon, Levent Sk., 59500 Çerkezköy/Tekirdağ</div>
+                    <div className="contactDetail"><LuMails /> <a href="mailto:info@cerkezkoytaskoop.com">
+                        info@cerkezkoytaskoop.com
+                    </a></div>
+                    <div className="contactDetail"><FaMapLocationDot />  <a
+                        href="https://maps.app.goo.gl/PYEfnc9v9NkfmMpN6"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        İstasyon, Levent Sk., 59500 Çerkezköy/Tekirdağ
+                    </a></div>
                     <hr />
                     <div className="contactCallNow">
                         <FaPhoneAlt />
                         <div style={{ display: "flex", flexDirection: "column", gap: "5px" }}>
                             <span>Bizi Arayın</span>
-                            <strong>+90 532 731 20 47</strong>
+                            <strong><a href="tel:+905327312047">+90 532 731 20 47</a></strong>
                         </div>
                     </div>
                 </div>
@@ -64,7 +72,7 @@ function page() {
             <div className="contactMap">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6792.756291794383!2d27.99109174714507!3d41.283141385253025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b52648379b86cd%3A0xb2a578001df38ba9!2zU3Mgw4dlcmtlemvDtnkgTW90b3JsdSBUYcWfxLF5xLFjxLFsYXIgS29vcGVyYXRpZmk!5e1!3m2!1str!2str!4v1751384838268!5m2!1str!2str" style={{ border: "0", width: "100%", height: "75vh", margin: "0" }} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
-        </div>
+        </div >
     )
 }
 

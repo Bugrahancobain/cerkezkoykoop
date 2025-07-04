@@ -18,13 +18,13 @@ function underSlider() {
             <div className="underSliderContent2">
                 <FaTruck />
                 <h2>Güvenilir Taşımacılık</h2>
-                <p>Çerkezköy Motorlu Yük Taşıma Kooperatifi ile mallarınızın güvenliğinden son derece emin olabilirsiniz.</p>
+                <p>Çerkezköy Karayolu Yük Taşıma Kooperatifi ile mallarınızın güvenliğinden son derece emin olabilirsiniz.</p>
                 <Link href="/ourServices" className='underSliderLink'>Hizmetlerimiz →</Link>
             </div>
             <div className="underSliderContent3">
                 <LiaTruckLoadingSolid />
                 <h2>Hızlı ve Etkili Nakliye Hizmeti</h2>
-                <p>Çerkezköy Motorlu Yük Taşıma Kooperatifi olarak sorunsuz ve hızlı bir şekilde ürünlerinizi nakliye ediyoruz.</p>
+                <p>Çerkezköy Karayolu Yük Taşıma Kooperatifi olarak sorunsuz ve hızlı bir şekilde ürünlerinizi nakliye ediyoruz.</p>
                 <Link href="/contact" className='underSliderLink'>İletişim →</Link>
             </div>
         </div>

@@ -1,5 +1,12 @@
 .ourServicesMain {
-  padding: 40px 20px;
+  padding:20px;
+}
+
+.ourServicePageHeaderDiv{
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  padding: 100px 0;
 }
 
 .ourServicesTitleDiv {
@@ -17,6 +24,8 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px;
+  justify-items: center;
+  align-items: center;
 }
 
 .ourServicesCard {

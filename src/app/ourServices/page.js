@@ -25,7 +25,7 @@ function OurServicesPage() {
 
     return (
         <div className="ourServicesMain">
-            <div className="blogPageHeaderDiv">
+            <div className="ourServicePageHeaderDiv">
                 <h1>Hizmetlerimiz</h1>
                 <FaChevronDown />
             </div>
@@ -35,7 +35,7 @@ function OurServicesPage() {
                     <div
                         key={service.id}
                         className="ourServicesCard"
-                        onClick={() => router.push(`/services/${service.id}`)}
+                        onClick={() => router.push(`/ourServices/${service.id}`)}
                     >
                         <img src={service.image} alt={service.title} className="ourServiceImage" />
                         <div className="serviceInfo">

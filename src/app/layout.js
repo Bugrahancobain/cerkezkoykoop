@@ -5,7 +5,7 @@ import Footer from "./components/footer";
 import ScrollToTopButton from "./components/ScrollToTopButton";
 import Head from "next/head";
 export const metadata = {
-  title: "Çerkezköy Motorlu Yük Taşıma Kooperatifi",
+  title: "Çerkezköy Karayolu Yük Taşıma Kooperatifi",
   description: "Çerkezköy'de güvenilir, hızlı ve profesyonel nakliye hizmetleri sunan kooperatifimiz ile taşımacılık artık çok daha kolay.",
   generator: "Next.js",
   applicationName: "ÇerkezköyKOOP",
@@ -17,14 +17,14 @@ export const metadata = {
     "Motorlu Taşımacılık",
     "Nakliyat",
     "Tekirdağ Taşımacılık",
-    "Çerkezköy Motorlu Yük Taşıma Kooperatifi",
+    "Çerkezköy Karayolu Yük Taşıma Kooperatifi",
     "Evden Eve Nakliyat",
     "Lojistik",
     "Şehirlerarası Nakliyat"
   ],
-  authors: [{ name: "Çerkezköy Motorlu Yük Taşıma Kooperatifi", url: "https://cerkezkoyyuktasima.com" }],
-  creator: "Çerkezköy Motorlu Yük Taşıma Kooperatifi",
-  publisher: "Çerkezköy Motorlu Yük Taşıma Kooperatifi",
+  authors: [{ name: "Çerkezköy Karayolu Yük Taşıma Kooperatifi", url: "https://cerkezkoyyuktasima.com" }],
+  creator: "Çerkezköy Karayolu Yük Taşıma Kooperatifi",
+  publisher: "Çerkezköy Karayolu Yük Taşıma Kooperatifi",
   metadataBase: new URL("https://cerkezkoyyuktasima.com"),
   alternates: {
     canonical: "https://cerkezkoyyuktasima.com",
@@ -34,7 +34,7 @@ export const metadata = {
     }
   },
   openGraph: {
-    title: "Çerkezköy Motorlu Yük Taşıma Kooperatifi",
+    title: "Çerkezköy Karayolu Yük Taşıma Kooperatifi",
     description: "Çerkezköy'de taşımacılıkta güvenin adı. Hemen iletişime geçin!",
     url: "https://cerkezkoyyuktasima.com",
     siteName: "ÇerkezköyKOOP",

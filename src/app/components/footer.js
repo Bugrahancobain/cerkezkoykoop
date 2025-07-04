@@ -10,7 +10,7 @@ function footer() {
         <div className='footerMain'>
             <div className='footerContent'>
                 <div className='footerInfo'>
-                    <img src="/navbarLogo.png" alt="Çerkezköy Motorlu Yük Taşıma Kooperatifi" />
+                    <img src="/navbarLogo.png" alt="Çerkezköy Karayolu Yük Taşıma Kooperatifi" />
                     <span>Çerkezköy' de nakliyat hizmeti sunan firmamız sektöründe öncü olan bir firma haline gelmiştir. Bundan dolayı profesyonel taşımacılık konusunda en güvenilir hizmeti sizlere sağlamayı taahhüt ediyoruz.</span>
                 </div>
                 <div className="footerLinks">
@@ -25,21 +25,30 @@ function footer() {
                     <h2>İletişim</h2>
                     <div className='footerAdress'>
                         <FaLocationDot />
-                        <span>İstasyon, Levent Sk., 59500 Çerkezköy/Tekirdağ</span>
+                        <a
+                            href="https://maps.app.goo.gl/PYEfnc9v9NkfmMpN6"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{ color: "white" }}
+                        >
+                            İstasyon, Levent Sk., 59500 Çerkezköy/Tekirdağ
+                        </a>
                     </div>
                     <div className='footerMail'>
                         <IoIosMail />
-                        <span>info@cerkezkoytaskoop.com</span>
+                        <a style={{ color: "white" }} href="mailto:info@cerkezkoytaskoop.com">
+                            info@cerkezkoytaskoop.com
+                        </a>
                     </div>
                     <div className='footerPhone'>
                         <FaPhoneAlt />
-                        <span>+90 532 731 20 47</span>
+                        <a style={{ color: "white" }} href="tel:+905327312047">+90 532 731 20 47</a>
                     </div>
                 </div>
 
             </div>
             <div className="footerBot">
-                <span>© 2023 Çerkezköy Motorlu Yük Taşıma Kooperatifi. Tüm Hakları Saklıdır.</span>
+                <span>© 2023 Çerkezköy Karayolu Yük Taşıma Kooperatifi. Tüm Hakları Saklıdır.</span>
             </div>
         </div>
     )
