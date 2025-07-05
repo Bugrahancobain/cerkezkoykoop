@@ -93,3 +93,37 @@
     font-size: 20px;
     font-weight: 600;
 }
+
+
+@media (max-width: 1024px){
+    .homeAboutUsMain{
+        margin-top: 0;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .homeAboutUsFirstDiv, .homeAboutUsSecondDiv{
+        width: 100%;
+    }
+
+    .homeAboutUsSecondDiv{
+        position:static !important;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .homeAboutUsIMG1, .homeAboutUsIMG2, .experienceText{
+        position: static;
+        width: 100%;
+    }
+    .homeAboutUsSliderMain{
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .homeAboutUsSliderMain div{
+        width: 100%;
+    }
+}

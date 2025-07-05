@@ -73,5 +73,18 @@
 }
 
 .footerBot{
-    padding: 25px 0;
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .footerContent{
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .footerInfo, .footerLinks, .footerContact{
+        width: 100%;
+    }
 }

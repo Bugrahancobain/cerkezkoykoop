@@ -42,3 +42,14 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;}
 .underSliderContent1 a:active, .underSliderContent2 a:active, .underSliderContent3 a:active {
     color: black;
 }
+
+@media (max-width: 1024px){
+    .underSliderMain{
+        flex-direction: column;
+        position: static;
+    }
+
+    .underSliderContent1, .underSliderContent2, .underSliderContent3{
+        width: 100%;
+    }
+}

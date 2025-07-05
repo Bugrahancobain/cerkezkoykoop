@@ -57,7 +57,7 @@ function ServiceDetailClient({ service, services }) {
                     </div>
 
                     {/* Ana içerik */}
-                    <div style={{ width: "66%", fontSize: "18px" }}>
+                    <div className="referenceDetailHeaderWrapper" style={{ width: "66%", fontSize: "18px" }}>
                         <div className="referenceDetailHeader">
                             <img src={service.image} alt={service.title} />
                         </div>

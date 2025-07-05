@@ -8,7 +8,7 @@ import HomeContact from '../components/homeContact';
 
 function page() {
     const currentYear = new Date().getFullYear();
-    const foundedYear = 2005;
+    const foundedYear = 1977;
     const experience = currentYear - foundedYear;
 
     const [years, setYears] = useState(0);
@@ -27,7 +27,7 @@ function page() {
                             clearInterval(interval);
                             setHasAnimated(true);
                         }
-                    }, 100); // her sayı artış aralığı
+                    }, 50); // her sayı artış aralığı
                 }
             },
             { threshold: 0.5 }
@@ -50,16 +50,27 @@ function page() {
                     <h2>Güvenilir ve Hızlı</h2>
                     <h3>Taşımacılık Hizmeti</h3>
 
-                    <p>Çerkezköy Karayolu Yük Taşıma Kooperatifi olarak, sektörde edindiğimiz uzun yıllara dayanan tecrübemizle müşterilerimize kaliteli, güvenilir ve sürdürülebilir taşımacılık hizmeti sunuyoruz. Kurulduğumuz günden bu yana, taşımacılığı yalnızca bir yük değil, aynı zamanda bir sorumluluk olarak görmekteyiz.</p>
+                    <p>
+                        Çerkezköy Taşıma Kooperatifimiz, 1977 yılında taşımacılıkla geçimini sağlayan 7 esnafın bir araya gelmesiyle kurulmuştur.
+                        Kurulduğumuz günden bu yana Çerkezköy Organize Sanayi Bölgesi'nde faaliyet gösteren <strong>saygın firmalarla</strong> iş birliği içinde taşımacılık hizmeti sunmaktayız.
+                    </p>
 
-                    <p>Müşteri memnuniyetini her zaman ön planda tutan anlayışımızla; hızlı, etkin ve çözüm odaklı taşıma hizmetleri sunarak bölgemizde lider konuma yükselmekteyiz. Gelişen teknolojiyi ve sektörel yenilikleri yakından takip ederek, her geçen gün hizmet kalitemizi daha da ileriye taşıyoruz.</p>
+                    <p>
+                        Bugün itibariyle kooperatifimiz, <strong>141 ortak ve 250 araçlık</strong> (TIR, kamyon, kamyonet, panelvan) filosuyla geniş kapsamlı taşımacılık çözümleri sunmaktadır.
+                    </p>
 
-                    <p>Kooperatif yapımız sayesinde şeffaflık, dayanışma ve ortak fayda ilkelerini benimsiyor; üyelerimizle birlikte güçlü bir ekonomik yapı inşa ediyoruz. Geniş araç filomuz ve deneyimli kadromuzla, sanayiciden esnafa kadar her ölçekten müşterimizin ihtiyaçlarına özel çözümler üretiyoruz.</p>
+                    <p>
+                        Kooperatifimizin ihtiyaçlarını karşılamak adına <strong>forklift hizmetleri</strong> ve <strong>TIR parkı işletmeciliği</strong> faaliyetlerinde de bulunmaktayız.
+                        Forklift hizmetlerimiz; <strong>Çerkezköy Gümrük Sahası</strong> ve <strong>Çorlu Vagon Sahası</strong> üzerinden yurtdışından gelen yük vagonlarıyla gerçekleştirilmektedir.
+                    </p>
 
-                    <p>Sadece bugünün değil, yarının da yükünü birlikte taşımak için çıktığımız bu yolda; disiplinli çalışma prensibimiz, dürüst yaklaşımımız ve işimize duyduğumuz saygı ile sizlere değer katmaya devam edeceğiz.</p>
+                    <p>
+                        <strong>Veliköy Gümrüklü TIR Parkı</strong>nı Çerkezköy Belediyesi ile ortak şekilde işletmekteyiz. Ayrıca, son 3 yıldır <strong>Çerkezköy OSB TIR Parkı</strong>nın işletmesi de kooperatifimiz tarafından yürütülmektedir.
+                    </p>
 
-                    <p>Çerkezköy Yük Taşıma Kooperatifi olarak taşımanın güvenle, zamanında ve hakkıyla yapılması için buradayız.</p>
-                </div>
+                    <p>
+                        Kurumsal yapımız içerisinde şu an <strong>11 personel</strong> görev yapmakta olup, her geçen gün büyüyen yapımızla bölge taşımacılığına katkı sunmaya devam ediyoruz.
+                    </p></div>
                 <div className="aboutUsSecondDiv">
                     <img className='aboutUsIMG1' src="/homeAboutUs.jpg" alt="aboutUs" />
                     <img className='aboutUsIMG2' src="/homeAboutUs2.jpeg" alt="aboutUs2" />

@@ -130,3 +130,20 @@
     width: 100%;
     height: 75vh;
 }
+
+@media (max-width: 1024px){
+    .contactContext{
+        flex-direction: column;
+        width: 100%;
+        padding: 30px;
+        height: max-content;
+        
+    }
+
+    .contactFormDiv, .contactInfo{
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+        align-items: center;
+    }
+}

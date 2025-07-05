@@ -4,7 +4,7 @@ import "../styles/homeContact.css"
 
 function homeContact() {
     return (
-        <div>
+        <div className='homeContactComponent'>
             <div className="homeContactMain">
                 <div className="homeContactOverlay"></div>
                 <img src="/homeContact.avif" alt="homeContact" className="homeContactImage" />

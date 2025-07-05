@@ -72,3 +72,23 @@ gap: 10px;
 .homeContactLink:hover {
     background-color: #368cbb;
 }
+
+@media (max-width: 1024px) {
+
+    .homeContactMain{
+        width: 100%;
+
+    }
+    .homeContactComponent{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .homeContactText{
+        width: 90%;
+        padding: 30px;
+    }
+}

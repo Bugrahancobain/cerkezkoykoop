@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 function HomeAboutUs() {
     const currentYear = new Date().getFullYear();
-    const foundedYear = 2005;
+    const foundedYear = 1977;
     const experience = currentYear - foundedYear;
 
     const [years, setYears] = useState(0);
@@ -24,7 +24,7 @@ function HomeAboutUs() {
                             clearInterval(interval);
                             setHasAnimated(true);
                         }
-                    }, 100); // her sayı artış aralığı
+                    }, 50); // her sayı artış aralığı
                 }
             },
             { threshold: 0.5 }

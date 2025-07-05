@@ -116,3 +116,17 @@ gap: 10px;
     bottom: 150px !important;
     text-align: center !important;
 }
+
+@media (max-width:1024px){
+.sliderText h1{
+    font-size: 2rem;
+}
+
+.sliderText h2{
+    font-size: 1.5rem;
+}
+
+.sliderText p{
+    width: 100%;
+}
+}

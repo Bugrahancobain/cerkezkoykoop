@@ -124,3 +124,44 @@ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;}
 .aboutUsSliderContent1 a:active, .aboutUsSliderContent2 a:active, .aboutUsSliderContent3 a:active {
     color: black;
 }
+
+@media (max-width: 1024px) {
+    .aboutUsFirstWrapper{
+        flex-direction: column;
+        padding: 20px;
+        height: max-content;
+    }
+
+    .aboutUsFirstWrapper div{
+        width: 100%;
+    }
+.aboutUsFirstDiv{
+    text-align: center;
+}
+    .aboutUsFirstDiv h2, .aboutUsFirstDiv h3{
+        font-size: 35px;
+    text-align: center;
+    width: 100%;
+
+    }
+
+    .aboutUsSecondDiv{
+        position:static !important;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .aboutUsIMG1, .aboutUsIMG2, .experienceText{
+        position: static;
+        width: 100%;
+    }
+    .aboutUsSliderMain{
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .aboutUsSliderMain div{
+        width: 100%;
+    }
+}

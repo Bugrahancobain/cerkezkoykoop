@@ -1,10 +1,19 @@
+'use client';
+
 import Link from 'next/link';
-import React from 'react';
-import { FaLocationDot, FaPhoneVolume } from "react-icons/fa6";
+import React, { useState } from 'react';
+import { FaLocationDot, FaPhoneVolume, FaBars } from "react-icons/fa6";
+import { FaTimes } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import '../styles/navbar.css';
 
 function Navbar() {
+    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+    const toggleMenu = () => {
+        setIsMobileMenuOpen(!isMobileMenuOpen);
+    };
+
     return (
         <div className='navbarMain'>
             {/* ÜST BAR */}
@@ -32,13 +41,21 @@ function Navbar() {
                 <Link href="/" className='navbarLogoLink'>
                     <img src="/navbarLogo.png" alt="Çerkezköy Karayolu Yük Taşıma Kooperatifi" />
                 </Link>
-                <div className='navbarLinks'>
-                    <Link href="/" className='navbarLink'>Anasayfa</Link>
-                    <Link href="/aboutUs" className='navbarLink'>Hakkımızda</Link>
-                    <Link href="/ourServices" className='navbarLink'>Hizmetlerimiz</Link>
-                    <Link href="/blog" className='navbarLink'>Blog</Link>
-                    <Link href="/contact" className='navbarLink'>İletişim</Link>
+
+                {/* Burger Icon */}
+                <div className="burgerIcon" onClick={toggleMenu}>
+                    {isMobileMenuOpen ? <FaTimes /> : <FaBars />}
                 </div>
+
+                {/* Linkler */}
+                <div className={`navbarLinks ${isMobileMenuOpen ? 'navbarLinksMobileOpen' : ''}`}>
+                    <Link href="/" className='navbarLink' onClick={() => setIsMobileMenuOpen(false)}>Anasayfa</Link>
+                    <Link href="/aboutUs" className='navbarLink' onClick={() => setIsMobileMenuOpen(false)}>Hakkımızda</Link>
+                    <Link href="/ourServices" className='navbarLink' onClick={() => setIsMobileMenuOpen(false)}>Hizmetlerimiz</Link>
+                    <Link href="/blog" className='navbarLink' onClick={() => setIsMobileMenuOpen(false)}>Blog</Link>
+                    <Link href="/contact" className='navbarLink' onClick={() => setIsMobileMenuOpen(false)}>İletişim</Link>
+                </div>
+
                 <div className="navbarPhone">
                     <FaPhoneVolume />
                     <a href="tel:+905327312047">+90 532 731 20 47</a>
