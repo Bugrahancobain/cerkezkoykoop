@@ -70,7 +70,7 @@ function BlogDetailClient({ blog, blogs }) {
                                 <div>
                                     <h4 className="blogTitle">{previousBlog.title}</h4>
                                     <div className="blogExcerpt" dangerouslySetInnerHTML={{
-                                        __html: previousBlog.content?.substring(0, 50) + "..."
+                                        __html: previousBlog.description?.substring(0, 50) + "..."
                                     }} />
                                 </div>
                             </Link>
@@ -87,7 +87,7 @@ function BlogDetailClient({ blog, blogs }) {
                                 <div>
                                     <h4 className="blogTitle">{nextBlog.title}</h4>
                                     <div className="blogExcerpt" dangerouslySetInnerHTML={{
-                                        __html: nextBlog.content?.substring(0, 50) + "..."
+                                        __html: nextBlog.description?.substring(0, 50) + "..."
                                     }} />
                                 </div>
                             </Link>

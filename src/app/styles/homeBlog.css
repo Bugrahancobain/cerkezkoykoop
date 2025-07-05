@@ -5,8 +5,9 @@
     justify-content: flex-start;
     text-align: center;
     width: 100%;
-    height: 70vh;
+    min-height: 70vh;
     padding: 50px;
+    height: 100%;
 }
 
 .homeBlogTitle{
@@ -29,10 +30,13 @@
 
 .homeBlogContextDiv {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(33%, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 30px;
   padding: 20px;
   margin-top: 50px;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
 }
 
 .blogCard {
@@ -45,6 +49,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 280px;
 }
 
 .blogCard:hover {
