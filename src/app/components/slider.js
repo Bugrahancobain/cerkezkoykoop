@@ -22,7 +22,7 @@ export default function App() {
                         <div className="sliderOverlay"></div>
                         <img src="/slider1.webp" alt="slider" className="sliderImage" />
                         <div className="sliderText">
-                            <h1>Türkiye'nin En Kaliteli</h1>
+                            <h1>Türkiye&apos;nin En Kaliteli</h1>
                             <h2>Nakliye Firması</h2>
                             <p>
                                 Çeşitli hizmetlerimizle nakliye edilmesi gereken her ürünü
@@ -40,7 +40,7 @@ export default function App() {
                         <div className="sliderOverlay"></div>
                         <img src="/slider2.jpeg" alt="slider" className="sliderImage" />
                         <div className="sliderText">
-                            <h1>Türkiye'nin En Kaliteli</h1>
+                            <h1>Türkiye&apos;nin En Kaliteli</h1>
                             <h2>Nakliye Firması</h2>
                             <p>
                                 Çeşitli hizmetlerimizle nakliye edilmesi gereken her ürünü
@@ -58,7 +58,7 @@ export default function App() {
                         <div className="sliderOverlay"></div>
                         <img src="/slider3.jpeg" alt="slider" className="sliderImage" />
                         <div className="sliderText">
-                            <h1>Türkiye'nin En Kaliteli</h1>
+                            <h1>Türkiye&apos;nin En Kaliteli</h1>
                             <h2>Nakliye Firması</h2>
                             <p>
                                 Çeşitli hizmetlerimizle nakliye edilmesi gereken her ürünü

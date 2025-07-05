@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { ref, onValue } from "firebase/database";
 import { database } from "../../../firebase";
 import "../styles/homeBlog.css"
-function homeBlog() {
+function HomeBlog() {
     const [blogs, setBlogs] = useState([]);
     const router = useRouter();
 
@@ -45,4 +45,4 @@ function homeBlog() {
     )
 }
 
-export default homeBlog
+export default HomeBlog

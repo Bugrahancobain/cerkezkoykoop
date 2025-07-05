@@ -52,7 +52,7 @@ function Page() {
 
                     <p>
                         Çerkezköy Taşıma Kooperatifimiz, 1977 yılında taşımacılıkla geçimini sağlayan 7 esnafın bir araya gelmesiyle kurulmuştur.
-                        Kurulduğumuz günden bu yana Çerkezköy Organize Sanayi Bölgesi'nde faaliyet gösteren <strong>saygın firmalarla</strong> iş birliği içinde taşımacılık hizmeti sunmaktayız.
+                        Kurulduğumuz günden bu yana Çerkezköy Organize Sanayi Bölgesi&apos;nde faaliyet gösteren <strong>saygın firmalarla</strong> iş birliği içinde taşımacılık hizmeti sunmaktayız.
                     </p>
 
                     <p>
