@@ -6,7 +6,7 @@ import { FaTruck } from "react-icons/fa";
 import { LiaTruckLoadingSolid } from "react-icons/lia";
 import HomeContact from '../components/homeContact';
 
-function page() {
+function Page() {
     const currentYear = new Date().getFullYear();
     const foundedYear = 1977;
     const experience = currentYear - foundedYear;
@@ -102,4 +102,4 @@ function page() {
     )
 }
 
-export default page
+export default Page
