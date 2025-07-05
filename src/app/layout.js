@@ -1,6 +1,7 @@
 import "./globals.css";
 import Navbar from "./components/navbar";
 import Footer from "./components/footer";
+import Script from 'next/script';
 
 import ScrollToTopButton from "./components/ScrollToTopButton";
 import Head from "next/head";
@@ -65,6 +66,19 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
           rel="stylesheet"
         />
+        {/* Google Analytics Script */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-C0RKV235C7"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-C0RKV235C7');
+          `}
+        </Script>
       </Head>
       <body>
         <Navbar />

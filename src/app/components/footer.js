@@ -11,7 +11,7 @@ function footer() {
             <div className='footerContent'>
                 <div className='footerInfo'>
                     <img src="/navbarLogo.png" alt="Çerkezköy Karayolu Yük Taşıma Kooperatifi" />
-                    <span>Çerkezköy' de nakliyat hizmeti sunan firmamız sektöründe öncü olan bir firma haline gelmiştir. Bundan dolayı profesyonel taşımacılık konusunda en güvenilir hizmeti sizlere sağlamayı taahhüt ediyoruz.</span>
+                    <span>Çerkezköy&apos; de nakliyat hizmeti sunan firmamız sektöründe öncü olan bir firma haline gelmiştir. Bundan dolayı profesyonel taşımacılık konusunda en güvenilir hizmeti sizlere sağlamayı taahhüt ediyoruz.</span>
                 </div>
                 <div className="footerLinks">
                     <h2>Hızlı Menü</h2>

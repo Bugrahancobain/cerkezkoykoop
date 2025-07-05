@@ -7,7 +7,7 @@ import { ref, onValue } from "firebase/database";
 import { database } from "../../../firebase"; // kendi yolunla eşleştir
 import "../ourServices/ourServices.css";
 
-function homeOurServices() {
+function HomeOurServices() {
 
     const [services, setServices] = useState([]);
     const router = useRouter();
@@ -54,4 +54,4 @@ function homeOurServices() {
     )
 }
 
-export default homeOurServices
+export default HomeOurServices
