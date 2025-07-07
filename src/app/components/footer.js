@@ -31,7 +31,7 @@ function footer() {
                             rel="noopener noreferrer"
                             style={{ color: "white" }}
                         >
-                            İstasyon, Levent Sk., 59500 Çerkezköy/Tekirdağ
+                            İstasyon Mahallesi İnönü Caddesi No 1/3 Çerkezköy/Tekirdağ
                         </a>
                     </div>
                     <div className='footerMail'>
@@ -42,7 +42,7 @@ function footer() {
                     </div>
                     <div className='footerPhone'>
                         <FaPhoneAlt />
-                        <a style={{ color: "white" }} href="tel:+905327312047">+90 532 731 20 47</a>
+                        <a style={{ color: "white" }} href="tel:+902827265055">0(282) 726 5055</a>
                     </div>
                 </div>
 

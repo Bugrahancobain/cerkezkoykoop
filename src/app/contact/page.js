@@ -51,22 +51,59 @@ function Page() {
                     <h2>İletişim Bilgilerimiz</h2>
                     <div className="contactDetail"><LuMails /> <a href="mailto:info@cerkezkoytaskoop.com">
                         info@cerkezkoytaskoop.com
-                    </a></div>
+                    </a>
+                    </div>
+                    <div className="contactDetail"><LuMails /> <a href="mailto:murat.yildiz@cerkezkoytaskoop.com">
+                        murat.yildiz@cerkezkoytaskoop.com
+                    </a>
+                    </div>
+                    <div className="contactDetail"><LuMails /> <a href="mailto:carpaci@cerkezkoytaskoop.com">
+                        carpaci@cerkezkoytaskoop.com
+                    </a>
+                    </div>
+                    <div className="contactDetail"><LuMails /> <a href="mailto:muhasebe@cerkezkoytaskoop.com">
+                        muhasebe@cerkezkoytaskoop.com
+                    </a>
+                    </div>
                     <div className="contactDetail"><FaMapLocationDot />  <a
                         href="https://maps.app.goo.gl/PYEfnc9v9NkfmMpN6"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        İstasyon, Levent Sk., 59500 Çerkezköy/Tekirdağ
+                        İstasyon Mahallesi İnönü Caddesi No 1/3 Çerkezköy/Tekirdağ
                     </a></div>
                     <hr />
                     <div className="contactCallNow">
                         <FaPhoneAlt />
                         <div style={{ display: "flex", flexDirection: "column", gap: "5px" }}>
-                            <span>Bizi Arayın</span>
-                            <strong><a href="tel:+905327312047">+90 532 731 20 47</a></strong>
+                            <span>Sabit Hat</span>
+                            <strong><a href="tel:+902827265055">0 (282) 726 5055</a></strong>
+                        </div>
+                        <div style={{ display: "flex", flexDirection: "column", gap: "5px" }}>
+                            <span>Başkan - Yılmaz Arat</span>
+                            <strong><a href="tel:+05324459371">0 (532) 445 9371</a></strong>
+                        </div>
+                        <div style={{ display: "flex", flexDirection: "column", gap: "5px" }}>
+                            <span>Muhasebe - Murat Yıldız</span>
+                            <strong><a href="tel:+905327312047">0 (532) 731 2047</a></strong>
                         </div>
                     </div>
+                    <div className="contactCallNow">
+                        <FaPhoneAlt />
+                        <div style={{ display: "flex", flexDirection: "column", gap: "5px" }}>
+                            <span>Sevkiyat - Cemil Arpacı</span>
+                            <strong><a href="tel:+905368629394">0 (536) 862 9394</a></strong>
+                        </div>
+                        <div style={{ display: "flex", flexDirection: "column", gap: "5px" }}>
+                            <span>Sevkiyat - Barış Can Yılmaz</span>
+                            <strong><a href="tel:+05333200176">0 (533) 320 01 76</a></strong>
+                        </div>
+                        <div style={{ display: "flex", flexDirection: "column", gap: "5px" }}>
+                            <span>Sevkiyat - Gürkan Duygu</span>
+                            <strong><a href="tel:+905334128993">0 (533) 412 8993</a></strong>
+                        </div>
+                    </div>
+
                 </div>
             </div>
             <div className="contactMap">

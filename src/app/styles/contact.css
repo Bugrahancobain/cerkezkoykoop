@@ -111,9 +111,9 @@
 .contactCallNow {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 14px;
     color: #41a8e0;
 }
 

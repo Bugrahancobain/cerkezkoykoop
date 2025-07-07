@@ -25,7 +25,7 @@ function Navbar() {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        İstasyon, Levent Sk., 59500 Çerkezköy/Tekirdağ
+                        İstasyon Mahallesi İnönü Caddesi No 1/3 Çerkezköy/Tekirdağ
                     </a>
                 </div>
                 <div className='navbarMail'>
@@ -58,7 +58,7 @@ function Navbar() {
 
                 <div className="navbarPhone">
                     <FaPhoneVolume />
-                    <a href="tel:+905327312047">+90 532 731 20 47</a>
+                    <a href="tel:+902827265055">0(282) 726 5055</a>
                 </div>
             </div>
         </div>
