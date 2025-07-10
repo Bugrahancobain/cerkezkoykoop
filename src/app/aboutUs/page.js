@@ -60,17 +60,21 @@ function Page() {
                     </p>
 
                     <p>
-                        Kooperatifimizin ihtiyaçlarını karşılamak adına <strong>forklift hizmetleri</strong> ve <strong>TIR parkı işletmeciliği</strong> faaliyetlerinde de bulunmaktayız.
-                        Forklift hizmetlerimiz; <strong>Çerkezköy Gümrük Sahası</strong> ve <strong>Çorlu Vagon Sahası</strong> üzerinden yurtdışından gelen yük vagonlarıyla gerçekleştirilmektedir.
+                        Kooperatifimizin bünyesinde, yükleme-boşaltma süreçlerinde ihtiyaç duyulan <strong>forklift hizmetleri</strong> profesyonel ekip ve ekipmanlarla sağlanmaktadır.
+                        Özellikle <strong>Çerkezköy Gümrük Sahası</strong> ve <strong>Çorlu Tren İstasyonu Vagon Sahası</strong> gibi stratejik noktalarda yürütülen bu hizmetlerle, yurtdışından gelen yük vagonlarının elleçleme işlemleri başarıyla gerçekleştirilmektedir.
+                        Bu alanlarda yüksek tonajlı forkliftlerimiz ile hem konteyner hem paletli yüklerin hızlı ve güvenli şekilde aktarımı sağlanmaktadır.
                     </p>
 
                     <p>
-                        <strong>Veliköy Gümrüklü TIR Parkı</strong>nı Çerkezköy Belediyesi ile ortak şekilde işletmekteyiz. Ayrıca, son 3 yıldır <strong>Çerkezköy OSB TIR Parkı</strong>nın işletmesi de kooperatifimiz tarafından yürütülmektedir.
+                        Ayrıca <strong>TIR parkı işletmeciliği</strong> kapsamında önemli bir görev üstlenmekteyiz.
+                        <strong>Veliköy Gümrüklü TIR Parkı</strong>, Çerkezköy Belediyesi ile yapılan ortaklık doğrultusunda işletilmekte olup, günlük yoğun TIR trafiğini düzenleyen, güvenli ve modern bir bekleme alanı sunmaktadır.
+                        <strong>Çerkezköy OSB TIR Parkı</strong> ise son 3 yıldır tarafımızca işletilmekte; bu alanda sürücülere dinlenme alanları, güvenlik, kantin ve araç bakım noktaları gibi birçok hizmet bir arada sağlanmaktadır.
                     </p>
 
                     <p>
                         Kurumsal yapımız içerisinde şu an <strong>11 personel</strong> görev yapmakta olup, her geçen gün büyüyen yapımızla bölge taşımacılığına katkı sunmaya devam ediyoruz.
-                    </p></div>
+                    </p>
+                </div>
                 <div className="aboutUsSecondDiv">
                     <img className='aboutUsIMG1' src="/homeAboutUs.jpg" alt="aboutUs" />
                     <img className='aboutUsIMG2' src="/homeAboutUs2.jpeg" alt="aboutUs2" />
