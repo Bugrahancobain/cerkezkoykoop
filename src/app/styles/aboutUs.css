@@ -1,7 +1,8 @@
 .aboutUsFirstWrapper{
     margin-top: 50px;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
+    height: max-content;
     align-items: center;
     display: flex;
     justify-content: space-evenly;
@@ -32,9 +33,10 @@
     width: 80%;
     border-radius: 10px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-    height: 50%;
+    height: 100%;
     position: relative;
     z-index: 1;
+    object-fit: contain;
 }
 
 .aboutUsIMG2 {
@@ -43,7 +45,7 @@
     border-radius: 10px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
     position: absolute;
-    height: 40%;
+    height: 100%;
     top: 30%;
     right: 0;
     z-index: 2;
@@ -52,7 +54,7 @@
 .experienceText {
     position: absolute;
     left: 15%;
-    top: 40%;
+    top: 90%;
     background: white;
     padding: 15px 25px;
     border-radius: 12px;
