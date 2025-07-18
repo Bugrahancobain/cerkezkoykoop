@@ -23,25 +23,25 @@ export const metadata = {
     "Lojistik",
     "Şehirlerarası Nakliyat"
   ],
-  authors: [{ name: "Çerkezköy Karayolu Yük Taşıma Kooperatifi", url: "https://cerkezkoyyuktasima.com" }],
+  authors: [{ name: "Çerkezköy Karayolu Yük Taşıma Kooperatifi", url: "https://www.cerkezkoyyuktasimakooperatifi.com/" }],
   creator: "Çerkezköy Karayolu Yük Taşıma Kooperatifi",
   publisher: "Çerkezköy Karayolu Yük Taşıma Kooperatifi",
-  metadataBase: new URL("https://cerkezkoyyuktasima.com"),
+  metadataBase: new URL("https://www.cerkezkoyyuktasimakooperatifi.com/"),
   alternates: {
-    canonical: "https://cerkezkoyyuktasima.com",
+    canonical: "https://www.cerkezkoyyuktasimakooperatifi.com/",
     languages: {
-      "tr": "https://cerkezkoyyuktasima.com/tr",
-      "en": "https://cerkezkoyyuktasima.com/en"
+      "tr": "https://www.cerkezkoyyuktasimakooperatifi.com//tr",
+      "en": "https://www.cerkezkoyyuktasimakooperatifi.com//en"
     }
   },
   openGraph: {
     title: "Çerkezköy Karayolu Yük Taşıma Kooperatifi",
     description: "Çerkezköy'de taşımacılıkta güvenin adı. Hemen iletişime geçin!",
-    url: "https://cerkezkoyyuktasima.com",
+    url: "https://www.cerkezkoyyuktasimakooperatifi.com/",
     siteName: "ÇerkezköyKOOP",
     images: [
       {
-        url: "https://cerkezkoyyuktasima.com/og-banner.jpg",
+        url: "https://www.cerkezkoyyuktasimakooperatifi.com//og-banner.jpg",
         width: 1200,
         height: 630,
         alt: "ÇerkezköyKOOP Tanıtım Görseli"
